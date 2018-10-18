@@ -1,0 +1,13 @@
+
+
+public class MainRunnerBananaBank {
+
+	public static void main(String[] args) {
+		System.out.println("You are a virgin");
+		HomeBank home = new HomeBank();
+		home.createBankPage();
+		
+
+	}
+
+}

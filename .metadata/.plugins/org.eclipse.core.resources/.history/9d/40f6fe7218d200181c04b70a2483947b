@@ -1,0 +1,31 @@
+package com.QA.AutomatedTesting;
+import org.junit.Test;
+
+import java.io.IOException;
+
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+
+
+
+public class website{
+	public WebDriver driver = null;
+	
+	@Before
+	public void setup() {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Desktop\\chromedriver.exe");
+		driver = new ChromeDriver();
+		
+
+	}
+
+	@Test
+	public void inputsearch () throws InterruptedException, IOException {
+		websiteCall search = PageFactory.initElements(driver, websiteCall.class);
+		driver.get("http://automationpractice.com/index.php");
+		search.input("dress");
+}
+}

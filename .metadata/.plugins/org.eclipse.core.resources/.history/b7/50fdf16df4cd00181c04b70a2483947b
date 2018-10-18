@@ -1,0 +1,98 @@
+package java8Practice;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Alphabet {
+
+	public String checkDigit(String word)
+	{
+		switch(word)
+			{
+				case "0": 
+				{
+					word = "zero"; 
+					break;
+					//return word;
+				}
+				
+				case "1": 
+				{
+					word = "one";
+					break;
+					//return word;
+				}
+				
+				case "2": 
+				{
+					word = "two";
+					break;
+					//return word;
+				}
+				
+				case "3": 
+				{
+					word = "three"; 
+					break;
+					//return word;
+				}
+				case "4": 
+				{
+					word = "four"; 
+					break;
+					//return word;
+				}
+				case "5": 
+				{
+					word = "five"; 
+					break;
+					//return word;
+				}
+				case "6": 
+				{
+					word = "six"; 
+					break;
+					//return word;
+				}
+				case "7": 
+				{
+					word = "seven"; 
+					break;
+					//return word;
+				}
+				case "8": 
+				{
+					word = "eight"; 
+					break;
+					//return word;
+				}
+				case "9": 
+				{
+					word = "nine"; 
+					break;
+					//return word;
+				}
+				
+			}
+		return word;
+	}
+	
+	
+	public void organise(Integer [] input)
+	{
+		List<Integer> inputStrings = Arrays.asList(input);
+		
+		inputStrings.stream().map((num) -> 
+									{
+										String word = String.valueOf(num);
+										//System.out.println(word);
+										if(word.length() == 1)
+										{ 
+											checkDigit(word);
+										}
+										
+										return word; 
+									}
+								).forEach(System.out::println);;
+	}
+}

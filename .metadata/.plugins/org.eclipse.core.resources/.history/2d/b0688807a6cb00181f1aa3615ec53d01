@@ -1,0 +1,73 @@
+import java.awt.Frame;
+import java.awt.*;
+
+public class Calculator {
+
+	public void createCalculator() {
+		
+	Frame F = new Frame(); 
+	F.setVisible(true); 
+	F.setSize(600,600); 
+	
+	FlowLayout flow = new FlowLayout(); 
+	F.setLayout(flow);
+	
+	Label num1 = new Label("Enter First Number: "); 
+	Label num2 = new Label("Enter Second Number: ");
+	Label result = new Label("Result: "); 
+	
+	num1.setVisible(true);
+	F.add(num1);
+	
+	TextField input1 = new TextField();
+	TextField input2 = new TextField(); 
+	TextField resultOut = new TextField(); 
+	input1.setVisible(true);
+	F.add(input1);
+	
+	num2.setVisible(true);
+	F.add(num2);
+	
+	
+	
+	input2.setVisible(true);
+	F.add(input2);
+	
+	
+	Button add = new Button("+");
+	add.setBackground(Color.RED);
+	Button subtract = new Button("-");
+	add.setBackground(Color.GREEN);
+	Button multiply = new Button("*");
+	multiply.setBackground(Color.YELLOW);
+	Button divide = new Button("/"); 
+	divide.setBackground(Color.BLUE);
+	
+	add.setVisible(true);
+	F.add(add);
+	subtract.setVisible(true);
+	F.add(subtract);
+	multiply.setVisible(true);
+	F.add(multiply);
+	divide.setVisible(true);
+	F.add(divide);
+	
+	result.setVisible(true);
+	F.add(result);
+	resultOut.setVisible(true);
+	F.add(resultOut);
+	
+	Operations E = new Operations(input1, input2, resultOut, add, subtract, multiply, divide, num1, num2, result);
+	add.addActionListener(E);
+	subtract.addActionListener(E);
+	multiply.addActionListener(E);
+	divide.addActionListener(E);
+	
+//	Panel p1 = new Panel(); 
+//	Panel p2 = new Panel(); 
+//	Panel p3 = new Panel(); 
+//	
+	
+	}
+	
+}

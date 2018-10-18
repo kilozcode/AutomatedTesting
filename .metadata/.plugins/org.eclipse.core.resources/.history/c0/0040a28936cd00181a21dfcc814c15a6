@@ -1,0 +1,99 @@
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.Panel;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class BankStatementPage implements ActionListener{
+	
+Frame home; 
+TextField input; 
+String state = "Enter Account Number";
+Connection conn = null; 
+Statement stmt = null; 
+
+	public BankStatementPage(Frame f)
+	{
+		home = f;
+	}
+	
+	public void actionPerformed(ActionEvent eve)
+	{
+		home.setVisible(false);
+		Frame balance = new Frame();
+		balance.setVisible(true);
+		balance.setSize(300, 300);
+		Panel titleHeader = new Panel(); 
+		Label title = new Label("BANK STATEMENT"); 
+		titleHeader.setBackground(Color.PINK);
+		titleHeader.setFont(new Font("Head", Font.BOLD, 24));
+		titleHeader.add(title);
+		balance.add(titleHeader, BorderLayout.NORTH);
+		
+		Label middle = new Label(state); 
+		balance.add(middle, BorderLayout.CENTER);
+		
+		Panel p = new Panel(); 
+		FlowLayout flow = new FlowLayout(); 
+		p.setBackground(Color.MAGENTA);
+		p.setLayout(flow);
+		
+		
+		Label accountN = new Label("Enter AcNo: "); 
+		p.add(accountN);
+		
+		//NEEDS TO CHANGE BY IMPLEMENTING IT ELSE WHERE
+		input = new TextField();
+		p.add(input);
+		input.setColumns(9);
+		
+		Button submit = new Button("Submit AcNo");
+		p.add(submit);
+		
+		submit.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e)
+			{
+				System.out.println("action performed");
+				try {
+				conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "password");
+				
+				stmt = conn.createStatement();
+				
+				int acountNom = Integer.parseInt(input.getText());
+				//get name and address
+				String getDeposits = "SELECT * from deposit where AcNo = " + input.getText(); 
+				ResultSet rs = stmt.executeQuery(getDeposits);
+				state = "DEPOSITS";
+				
+				while(rs.next())
+				{
+					
+					int id = rs.getInt(1);
+					int amount = rs.getInt(2);
+					String date = rs.getString(3);
+					
+					state += "\n Amount: " + amount + ", Date: " + date;
+					
+				}
+				
+				} catch (SQLException eee) {
+					eee.printStackTrace();
+				}
+			}
+		});
+		balance.add(p, BorderLayout.NORTH);
+
+	}
+	
+}

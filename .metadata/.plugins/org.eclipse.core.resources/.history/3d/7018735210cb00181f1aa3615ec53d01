@@ -1,0 +1,17 @@
+//	WHY DOES IT MAKE A DIFFERENE NOT BEING IN THE MAIN? 
+
+//package formValidation;
+//
+//import java.awt.*;
+//import java.awt.Button;
+//import java.awt.Frame;
+//import java.awt.BorderLayout;
+//
+//public class FormCreation {
+//
+//	Frame logInPage = new Frame("Log In"); 
+//	logInPage.setVisible(true); 
+//	Button b1 = new Button("Click1"); 
+//	logInPage.add(b1, BorderLayout.NORTH); 
+//
+//}

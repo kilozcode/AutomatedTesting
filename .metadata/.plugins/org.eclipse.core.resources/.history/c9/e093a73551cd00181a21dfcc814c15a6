@@ -1,0 +1,44 @@
+package java8Practice;
+
+import java.util.ArrayList;
+
+/*
+ * Given a String[] with strings in a random format; 
+ * remove all string longer than 2 in length
+ * remove all string that would not parse as numbers
+ * multiply all remaining by 10
+ * Add them all together
+ * print out the sum
+ */
+public class Exercise1 {
+
+	public void exercise(String[] strArray)
+	{
+		ArrayList<String> stringArray = new ArrayList<String>();
+		ArrayList<Integer> integerList = new ArrayList<Integer>();
+		
+		for(String b:strArray)
+		{
+			if(b.length() > 2)
+			{
+				stringArray.add(b);
+			}
+		}
+		
+		for(String c:stringArray)
+		{
+			if()
+			{
+				int d = Integer.parseInt(c);
+				int f = d * 10;
+				integerList.add(f);
+			}
+		}
+		
+		for(int e:integerList)
+		{
+			int g += e;
+		}
+		System.out.println("Total: " + g);
+	}
+}

@@ -1,0 +1,62 @@
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class DepositMoney implements ActionListener{
+	
+	TextField submit;
+	Connection conn = null; 
+	Statement stmt = null; 
+	
+	public DepositMoney(TextField f)
+	{
+		submit=f;
+	}
+	
+	public void actionPerformed(ActionEvent ok)
+	{
+		String moneyDeposit = submit.getText();
+		//NAME AND ADDRESS FROM THE ACCOUT NUM
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank", "root", "password");
+			stmt = conn.createStatement();
+			
+			int money = Integer.parseInt(moneyDeposit);
+			//create new deposit
+			String putDeposit = "insert into deposit values("+ accountNo + ", " + money +")"; 
+//			String sqlUpdate = "insert into training values(8, 'Moo', 2)";
+//			String sqlAlter = "update training set Name='Man' where Id = 3";
+//			stmt.executeUpdate(getName);
+//			stmt.executeUpdate(sqlAlter);
+			
+			ResultSet rs = stmt.executeQuery(getName);
+			while(rs.next())
+			{
+				int id = rs.getInt(1);
+				String name2 = rs.getString(2);
+				String address2 = rs.getString(3);
+				System.out.println("AcNo: " + id);
+				System.out.println("Name: " + name2);
+				
+				//FINAL so need to change all the format 
+				nom.setText(name2);
+				address.setText(address2);
+				System.out.println("Address: " + address2);
+				System.out.println("");
+			}
+			
+						
+			rs.close();
+			stmt.close();
+			conn.close();
+		}catch(Exception se) {}
+		
+	}
+
+}

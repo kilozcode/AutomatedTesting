@@ -1,0 +1,22 @@
+package java8Practice;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class Exercise2 {
+
+	public void exercise2()
+	{
+	List<String> inputStrings = Arrays.asList("A123", "B111", "C453", "C3312");
+	
+	int largest;
+	
+	Stream<String> myStream = inputStrings.stream()
+			.filter(word -> word.charAt(0) != 'D');
+	myStream.map((word) -> 1 + word);
+	myStream.forEach(System.out::print);
+	//myStream.reduce((current, stringA) -> );
+	}
+
+}

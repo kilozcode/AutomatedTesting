@@ -1,0 +1,26 @@
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.TextField;
+import java.awt.*;
+
+public class HomePage {
+
+	public void createHomePage()
+	{
+	Frame mainPage = new Frame("homePage"); 
+		
+	Button logInButton = new Button("Log In");
+	
+	TextField user = new TextField(); 
+	TextField password = new TextField();
+	
+	mainPage.add(logInButton, BorderLayout.SOUTH);
+	mainPage.add(user, BorderLayout.NORTH); 
+	mainPage.add(password, BorderLayout.EAST);
+	
+	LogInPageEvent logIn = new LogInPageEvent(user); 
+	logInButton.addActionListener(logIn);
+	
+	}
+	
+}

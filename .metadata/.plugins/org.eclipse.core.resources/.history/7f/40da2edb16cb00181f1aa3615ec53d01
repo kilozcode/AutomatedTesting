@@ -1,0 +1,28 @@
+
+package formValidation;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class FormCreation implements ActionListener {
+	
+	public void actionPerformed(ActionEvent create)
+	{
+		System.out.println("YOU JUST CLICKED THE BUTTON");
+		TextField logInBox = new TextField(); 
+		MainRunnerForm.homePage.add(logInBox, BorderLayout.NORTH);
+		logInBox.setVisible(true);
+		logInBox.setText("SUCCESSFUL CLICK");
+		//TextField logInBox = new TextField(); 
+		//logInBox.setVisible(true);
+		//logInBox.setText("HELLO WORLD");
+	}
+	
+	
+} 
+
+
+	
+
+

@@ -1,0 +1,10 @@
+package bank;
+
+public class MainRunner {
+
+		public static void main(String args[])
+		{
+			Bank HSBC = Bank.createFund(); 
+			System.out.println("tax: " + HSBC.tax);
+		}
+}

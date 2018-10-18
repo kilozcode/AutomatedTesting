@@ -1,0 +1,23 @@
+package com.QA.BlackJackexp;
+
+public class BlackJack {
+public static void main (String[] args) {
+	
+}
+public int play (int player, int dealer) {
+		if ((player>=22||dealer>=22)||(player<=0||dealer<=0)){
+		return 0 ; }
+		 if (player > dealer) {
+			return player;}
+		 else if (dealer > player) {
+			return dealer;
+		 }
+		return dealer;
+
+	
+		
+	}
+	
+	}
+
+

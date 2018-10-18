@@ -1,0 +1,31 @@
+package java8Practice;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Alphabet {
+
+	public void organise(int [] input)
+	{
+		List<int[]> inputStrings = Arrays.asList(input);
+		
+		inputStrings.stream().map((num) -> 
+									{
+										if(num.length == 1)
+										{ String word = String.valueOf(num);
+											switch(word)
+											{
+												case "0": 
+												{
+													word = "zero"; 
+													return word;
+												}
+											}
+										
+										}
+										
+										return null;
+									}
+								);
+	}
+}

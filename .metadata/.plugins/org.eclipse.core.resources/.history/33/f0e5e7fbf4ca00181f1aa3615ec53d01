@@ -1,0 +1,29 @@
+package formValidation;
+
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Frame;
+
+public class MainRunnerForm {
+
+		public static void main(String args[])
+		{
+			Frame homePage = new Frame("Home Page");
+			
+			Frame logInPage = new Frame("Log In Page"); 
+			logInPage.setVisible(true); 
+			
+			Frame signUpPage = new Frame("Sign Up Page");
+			signUpPage.setVisible(true);
+			
+			
+			Button b1 = new Button("LogIn"); 
+			Button b2 = new Button("SignUp");
+			logInPage.add(b1, BorderLayout.NORTH); 
+			signUpPage.add(b2, BorderLayout.EAST); 
+			
+			homePage.add(logInPage, BorderLayout.EAST);
+			homePage.add(signUpPage, BorderLayout.WEST);
+			
+		}
+}

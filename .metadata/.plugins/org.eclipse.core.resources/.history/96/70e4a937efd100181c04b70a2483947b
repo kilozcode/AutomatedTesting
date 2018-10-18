@@ -1,0 +1,27 @@
+package com.qa.elements;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class BingLandingPage {
+	/*
+	@FindBy(id = "sb_form_q")
+	private WebElement searchbox;
+	*/
+	@FindBy (name = "username")
+	private WebElement username;
+	
+	@FindBy(name = "password")
+	private WebElement password;
+	
+	@FindBy(name= "FormsButton2")
+	private WebElement FormsButton2;
+	
+	public void search(String text1, String text2) throws InterruptedException {
+		username.sendKeys(text1);
+		password.sendKeys(text2);
+		FormsButton2.click();
+		
+	//	searchbox.submit();
+	}
+}

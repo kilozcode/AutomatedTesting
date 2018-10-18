@@ -1,0 +1,16 @@
+package formValidation;
+
+import java.awt.BorderLayout;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class ButtonB implements ActionListener{
+
+	public void actionPerformed(ActionEvent create)
+	{
+		TextField logInBox = new TextField(); 
+		MainRunnerForm.homePage.add(logInBox, BorderLayout.NORTH);
+		logInBox.setVisible(true);
+	}
+}

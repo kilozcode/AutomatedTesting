@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="website" project="AutomatedTesting" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.QA.AutomatedTesting.website" time="8.369">
+    <testcase name="inputsearch" classname="com.QA.AutomatedTesting.website" time="8.369"/>
+  </testsuite>
+</testrun>

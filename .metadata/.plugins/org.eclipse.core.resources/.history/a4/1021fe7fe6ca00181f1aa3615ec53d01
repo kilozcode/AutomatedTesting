@@ -1,0 +1,27 @@
+package bank;
+
+public class Bank {
+
+	//static initialiser
+	static 
+	{
+		int dollar = 75; 
+		int tax = 17; 
+		Bank R; 
+	}
+	
+	private int pound;
+	
+	private Bank()
+	{
+	
+	}
+	
+	public static Bank createFund()
+	{
+		if (R == null)
+		{
+			
+		}
+	}
+}

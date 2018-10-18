@@ -1,0 +1,36 @@
+package bank;
+
+public class Bank {
+
+	//creating a reference to Bank 
+	static Bank R;
+	static int tax = 10; 
+	 
+	
+	//static initialiser, that only runs once and acts almost like a constructor, can't get it
+	static 
+	{
+		System.out.println("Initalising the Static initialiser");
+		int dollar = 75; 
+		
+	}
+	
+	private int pound;
+	
+	private Bank()
+	{
+		
+	}
+	
+	//this method has been created to be static such that it can be called by an instance of the Bank reference as the constructor is private 
+	public static Bank createFund()
+	{
+		if (R == null)
+		{
+			R = new Bank();
+		}
+		
+		//System.out.println(R);
+		return R; 
+	}
+}

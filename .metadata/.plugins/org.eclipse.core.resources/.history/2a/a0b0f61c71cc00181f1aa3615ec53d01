@@ -1,0 +1,19 @@
+import java.awt.Button;
+import java.awt.TextField;
+import java.awt.event.ActionListener;
+
+public class CreateAccountEvent implements ActionListener{
+	TextField nom;
+	TextField addresss;
+	TextField acNo; 
+	Button sub; 
+	
+	public CreateAccountEvent(TextField nom, TextField addresss, TextField acNo, Button sub)
+	{
+		this.nom = nom; 
+		this.addresss = addresss;
+		this.acNo = acNo;
+		this.sub = sub;
+	}
+
+}

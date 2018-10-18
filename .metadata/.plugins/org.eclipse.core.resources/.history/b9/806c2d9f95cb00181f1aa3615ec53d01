@@ -1,0 +1,18 @@
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.TextField;
+import java.awt.*;
+
+public class HomePage {
+
+	Frame mainPage = new Frame("homePage"); 
+		
+	Button logInButton = new Button("Log In");
+	
+	TextField user = new TextField(); 
+	TextField password = new TextField();
+	
+	mainPage.add(logInButton); 
+	
+	
+}

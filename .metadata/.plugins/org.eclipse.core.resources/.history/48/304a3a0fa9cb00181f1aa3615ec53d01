@@ -1,0 +1,112 @@
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.Label;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Operations implements ActionListener {
+	
+	TextField T1; 
+	TextField T2; 
+	TextField T3;
+	
+	Button B1;
+	Button B2;
+	Button B3;
+	Button B4; 
+	
+	Label L1; 
+	Label L2; 
+	Label L3; 
+
+	public Operations(TextField A, TextField B, TextField C, Button D, Button E, Button F, Button J, Label G, Label H, Label I)
+	{
+		T1 = A;
+		T2 = B;
+		T3 = C;
+		B1 = D; 
+		B2 = E;
+		B3 = F;
+		B4 = J;
+		L1 = G;
+		L2 = H;
+		L3 = I; 
+	}
+	
+	public void actionPerformed(ActionEvent create)
+	{
+		T1.setBackground(Color.WHITE);
+		T2.setBackground(Color.WHITE);
+		
+		int inputBox1 = 0; 
+		int inputBox2 = 0; 
+		int c = 0; 
+		
+		if(T1.getText().equals("") && T2.getText().equals(""))
+		{
+			System.out.println("Please Enter BOTH Numbers");
+			T1.setBackground(Color.RED);
+			T2.setBackground(Color.RED);
+			
+		}
+		
+		else if(T1.getText().equals(""))
+		{
+			System.out.println("Please Enter First Number");
+			T1.setBackground(Color.RED);
+			
+		}
+		
+		else if(T2.getText().equals(""))
+		{
+			System.out.println("Please Enter Second Number");
+			T2.setBackground(Color.RED);
+		}
+		
+		if(T1.getText().length()>= 1)
+		{
+			inputBox1 = Integer.parseInt(T1.getText());
+		}
+		else
+		{
+			T3.setText("N/A");
+		}
+		
+		if(T2.getText().length()>=1)
+		{
+			inputBox2 = Integer.parseInt(T2.getText());
+		}
+		
+		Button btn = (Button)create.getSource();
+		String titleBtn = btn.getLabel();
+		if(titleBtn.equals("+"))
+			
+		{
+			c = inputBox1 + inputBox2;
+			String resultC = String.valueOf(c);
+			T3.setText(resultC);
+		}
+		if(titleBtn.equals("-"))
+		{
+			c = inputBox1 - inputBox2;
+			String resultC = String.valueOf(c);
+			T3.setText(resultC);
+		}
+		
+		if(titleBtn.equals("*"))
+		{
+			c = inputBox1 * inputBox2;
+			String resultC = String.valueOf(c);
+			T3.setText(resultC);
+		}
+		
+		if(titleBtn.equals("/"))
+		{
+			c = inputBox1 / inputBox2;
+			String resultC = String.valueOf(c);
+			T3.setText(resultC);
+		}
+		
+	}
+}

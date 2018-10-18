@@ -1,0 +1,20 @@
+package bank;
+
+public class Tax {
+
+	private int money;
+	private String nameBank; 
+	
+	public Tax(int money, String nameBank)
+	{
+		this.money = money; 
+		this.nameBank = nameBank; 
+	}
+
+	public String taxCalculation()
+	{
+
+		return nameBank + ": has tax" + (Bank.tax * money); 
+	
+	}
+}

@@ -1,0 +1,30 @@
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.*; 
+
+public class Calc {
+
+	public void createCalc()
+	{
+		Frame F = new Frame(); 
+		F.setVisible(true); 
+		F.setSize(600,600);
+		
+		Panel top = new Panel();
+		top.setBackground(Color.PINK);
+		
+		Panel center = new Panel();
+		center.setBackground(Color.blue);
+		
+		FlowLayout flow = new FlowLayout(); 
+//		F.setLayout(flow);
+//		
+		top.setLayout(flow);
+		
+		GridLayout grid = new GridLayout(); 
+		center.setLayout(grid);
+		
+		F.add(top, BorderLayout.NORTH);
+		F.add(center, BorderLayout.CENTER);
+	}
+}

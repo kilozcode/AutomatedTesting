@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="blackjacktestInvalid" project="BlackJackexp" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0">
+    <testcase name="testy10" classname="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0"/>
+    <testcase name="testy12" classname="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0"/>
+    <testcase name="testy13" classname="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0"/>
+    <testcase name="testy14" classname="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0"/>
+    <testcase name="testy15" classname="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0"/>
+    <testcase name="testy16" classname="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0"/>
+    <testcase name="testy7" classname="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0"/>
+    <testcase name="testy8" classname="com.QA.BlackJackexp.blackjacktestInvalid" time="0.0"/>
+  </testsuite>
+</testrun>

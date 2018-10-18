@@ -1,0 +1,6 @@
+
+public class MainRunnerCalc {
+
+	Calculator calc = new Calculator(); 
+	
+}

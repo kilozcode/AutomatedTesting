@@ -1,0 +1,14 @@
+package bank;
+
+public class MainRunner {
+
+		public static void main(String args[])
+		{
+			Bank HSBC = Bank.createFund(); 
+			//System.out.println(HSBC);
+			Tax a = new Tax(25, "Lloyds"); 
+			System.out.println(a.taxCalculation()); 
+					
+			
+		}
+}

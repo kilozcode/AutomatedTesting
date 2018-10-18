@@ -1,0 +1,46 @@
+package com.QA.Waits;
+
+import java.io.IOException;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import static org.junit.Assert.assertEquals;
+
+
+
+public class shafeekWaiting {
+	public class website{
+		public WebDriver driver = null;
+		
+		@Before
+		public void setup() {
+			
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Desktop\\chromedriver.exe");
+			driver = new ChromeDriver();
+			
+		}
+		@Test
+		public void inputsearch () throws InterruptedException, IOException {
+		
+			
+			driver.get("https://chrisperrins95.github.io/AutomatedTestingExample/"); 
+			WebElement myDynamicElement = (new WebDriverWait(driver, 10)) .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"shafeeq\"]/h1"))); 
+			String s = driver.findElement(By.xpath("//*[@id=\"shafeeq\"]/h1")).getText();
+			assertEquals("check message status","I HATE YOU!",s);
+
+		}
+		@After
+		public void teardown() {
+			driver.quit();
+			
+		}
+}
+}

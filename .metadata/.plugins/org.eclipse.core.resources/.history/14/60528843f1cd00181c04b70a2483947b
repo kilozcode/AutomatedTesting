@@ -1,0 +1,81 @@
+package java8Practice;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Alphabet {
+
+	public void organise(int [] input)
+	{
+		List<int[]> inputStrings = Arrays.asList(input);
+		
+		inputStrings.stream().map((num) -> 
+									{
+										if(num.length == 1)
+										{ String word = String.valueOf(num);
+											
+										switch(word)
+											{
+												case "0": 
+												{
+													word = "zero"; 
+													//return word;
+												}
+												
+												case "1": 
+												{
+													word = "one"; 
+													//return word;
+												}
+												
+												case "2": 
+												{
+													word = "two"; 
+													//return word;
+												}
+												
+												case "3": 
+												{
+													word = "three"; 
+													//return word;
+												}
+												case "4": 
+												{
+													word = "four"; 
+													//return word;
+												}
+												case "5": 
+												{
+													word = "five"; 
+													//return word;
+												}
+												case "6": 
+												{
+													word = "six"; 
+													//return word;
+												}
+												case "7": 
+												{
+													word = "seven"; 
+													//return word;
+												}
+												case "8": 
+												{
+													word = "eight"; 
+													//return word;
+												}
+												case "9": 
+												{
+													word = "nine"; 
+													//return word;
+												}
+												return word;
+											}
+										
+										}
+										
+										return null;
+									}
+								);
+	}
+}

@@ -1,0 +1,31 @@
+package com.QA.BlackJackexp;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BlackJackTest {
+
+	@Test
+	public void testy() {
+		BlackJack b = new BlackJack();
+		assertEquals(0, b.play(-10, 20));
+		assertEquals(0, b.play(-20, 10));
+		assertEquals(0, b.play(-10, 30));
+		assertEquals(0, b.play(-10, 50));
+		assertEquals(0, b.play(20, 22));
+		assertEquals(0, b.play(20, 32));
+		assertEquals(0, b.play(20, 4));
+		assertEquals(0, b.play(20, -3));
+		assertEquals(0, b.play(-2, 4));
+		assertEquals(0, b.play(-3, 22));
+		assertEquals(0, b.play(-3, 32));
+		assertEquals(0, b.play(-5, 4));
+		assertEquals(0, b.play(-5, 22));
+		assertEquals(0, b.play(-5, 32));
+		assertEquals(0, b.play(32, 35));
+		assertEquals(0, b.play(32, 22));
+		assertEquals(0, b.play(32, 12));
+		
+	}
+}

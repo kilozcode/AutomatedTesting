@@ -1,0 +1,35 @@
+import java.awt.Color;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class LogInPageEvent implements ActionListener {
+
+	//
+	TextField TxtField; 
+	Button button; 
+	int clicked = 0;
+	
+	public void actionPerformed(ActionEvent log)
+	{
+		System.out.println("CHECK IT HAS BEEN CLICKED");
+		
+		TxtField.setText("LOGGED IN");
+		TxtField.setBackground(Color.PINK);
+		
+		
+		 clicked++;
+		if( clicked >= 10)
+		{
+			button.setBackground(Color.RED);
+			System.out.println("OVER CLICKED");
+		}
+	}
+	
+	public LogInPageEvent(TextField X, Button B)
+	{
+		TxtField = X;
+		button = B; 
+	}
+	
+}

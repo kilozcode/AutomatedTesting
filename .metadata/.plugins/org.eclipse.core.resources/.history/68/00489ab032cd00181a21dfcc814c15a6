@@ -1,0 +1,10 @@
+import java.awt.Frame;
+
+public class BankStatementPage {
+Frame home; 
+	
+	public BankStatementPage(Frame f)
+	{
+		home = f;
+	}
+}

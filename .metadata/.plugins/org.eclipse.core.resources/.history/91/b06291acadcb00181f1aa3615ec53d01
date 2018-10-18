@@ -1,0 +1,56 @@
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.*; 
+
+public class Calc {
+
+	public void createCalc()
+	{
+		Frame F = new Frame(); 
+		F.setVisible(true); 
+		F.setSize(600,600);
+		
+		Panel top = new Panel();
+		top.setBackground(Color.PINK);
+		top.setSize(200,200);
+		
+		TextField result = new TextField(); 
+		result.setSize(100, 80);
+		top.add(result); 
+
+		Panel center = new Panel();
+		center.setBackground(Color.blue);
+		
+		FlowLayout flow = new FlowLayout(); 
+//		F.setLayout(flow);
+//		
+		top.setLayout(flow);
+		
+		GridLayout grid = new GridLayout(4,4); 
+		center.setLayout(grid);
+		
+		F.add(top, BorderLayout.NORTH);
+		F.add(center, BorderLayout.CENTER);
+		
+		Button B0 = new Button();
+		Button B1 = new Button();
+		Button B2 = new Button();
+		Button B3 = new Button();
+		Button B4 = new Button();
+		Button B5 = new Button();
+		Button B6 = new Button();
+		Button B7 = new Button();
+		Button B8 = new Button();
+		Button B9 = new Button();
+		Button equal = new Button();
+		Button add = new Button();
+		Button multiply = new Button();
+		Button divide = new Button();
+		Button subtract = new Button();
+		Button C = new Button();
+		center.add(B0);
+		center.add(B1);
+		center.add(B2);
+		center.add(B3);
+	}
+}

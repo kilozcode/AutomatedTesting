@@ -1,0 +1,36 @@
+import java.awt.Frame;
+import java.awt.*;
+
+public class Calculator {
+
+	public void createCalculator() {
+		
+	Frame F = new Frame(); 
+	F.setVisible(true); 
+	F.setSize(600,600); 
+	
+	FlowLayout flow = new FlowLayout(); 
+	F.setLayout(flow);
+	
+	Label num1 = new Label("Enter First Number: "); 
+	Label num2 = new Label("Enter Second Number: ");
+	Label result = new Label("Result: "); 
+	
+	num1.setVisible(true);
+	TextField input1 = new TextField();
+	TextField input2 = new TextField(); 
+	TextField resultOut = new TextField(); 
+	
+	Button add = new Button("+");
+	Button subtract = new Button("-"); 
+	Button multiply = new Button("*"); 
+	Button divide = new Button("/"); 
+	
+//	Panel p1 = new Panel(); 
+//	Panel p2 = new Panel(); 
+//	Panel p3 = new Panel(); 
+//	
+	
+	}
+	
+}

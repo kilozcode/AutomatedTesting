@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BlackJackTest" project="BlackJackexp" tests="17" started="17" failures="0" errors="0" ignored="0">
+  <testsuite name="com.QA.BlackJackexp.BlackJackTest" time="0.002">
+    <testcase name="testy10" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy11" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy12" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy13" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy14" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy15" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy16" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy1" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy2" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy3" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy4" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy5" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy6" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy7" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+    <testcase name="testy8" classname="com.QA.BlackJackexp.BlackJackTest" time="0.001"/>
+    <testcase name="testy9" classname="com.QA.BlackJackexp.BlackJackTest" time="0.001"/>
+    <testcase name="testy" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0"/>
+  </testsuite>
+</testrun>

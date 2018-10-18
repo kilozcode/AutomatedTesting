@@ -1,0 +1,15 @@
+package java8Practice;
+
+public class MainRunnerPractice {
+
+	public static void main (String args[])
+	{
+		Exercise1 ex = new Exercise1();
+		String[] test = {"12", "try", "t4"};
+		ex.exercise(test);
+		
+		String[] french = {"237373", "fr88", "fhfhf", "sd", "22", "24"};
+		ex.exercise(french);
+	}
+	
+}

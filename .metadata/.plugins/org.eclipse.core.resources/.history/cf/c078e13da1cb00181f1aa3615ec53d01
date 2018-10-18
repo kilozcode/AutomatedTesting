@@ -1,0 +1,9 @@
+import java.awt.Frame;
+import java.awt.*;
+
+public class Calculator {
+
+	Frame F = new Frame(); 
+	F.setVisible(true); 
+	F.setSize(600,600); 
+}

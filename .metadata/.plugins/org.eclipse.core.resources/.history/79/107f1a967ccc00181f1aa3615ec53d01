@@ -1,0 +1,54 @@
+import java.awt.BorderLayout;
+import java.awt.Button;
+import java.awt.Color;
+import java.awt.Frame;
+import java.awt.GridLayout;
+import java.awt.Panel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class HomeBank {
+	Frame F; 
+	
+	public void createBankPage()
+	{
+		F = new Frame("home"); 
+		F.setVisible(true);
+		F.setSize(600,600);
+		
+		Panel homePage = new Panel(); 
+		GridLayout grid = new GridLayout(4,1);
+		homePage.setLayout(grid);
+		F.add(homePage, BorderLayout.CENTER); 
+		
+		Button createAccount = new Button ("Create Account");
+		createAccount.setBackground(Color.pink);
+		Button depositeMoney = new Button("Deposite Money");
+		depositeMoney.setBackground(Color.pink);
+		Button withdrawMoney = new Button("Withdraw"); 
+		withdrawMoney.setBackground(Color.PINK); 
+		Button exit = new Button("EXIT"); 
+		exit.setBackground(Color.GRAY);
+		exit.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent eee)
+			{
+				F.setVisible(false);
+			}
+		});
+		
+		homePage.add(createAccount);
+		homePage.add(depositeMoney);
+		homePage.add(withdrawMoney);
+		homePage.add(exit);
+		
+		CreateAccount create = new CreateAccount(F);
+		createAccount.addActionListener(create);
+		
+		DepositPage deposit = new DepositPage(F); 
+		depositeMoney.addActionListener(deposit); 
+		
+		WithdrawPage with = new WithdrawPage(F); 
+		withdrawMoney.addActionListener(with);
+	}
+}

@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BlackJackTest" project="BlackJackexp" tests="17" started="17" failures="0" errors="17" ignored="0">
+  <testsuite name="com.QA.BlackJackexp.BlackJackTest" time="0.016">
+    <testcase name="testy10" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy11" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy12" classname="com.QA.BlackJackexp.BlackJackTest" time="0.016">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy13" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy14" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy15" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy16" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy1" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy2" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy3" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy4" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy5" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy6" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy7" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy8" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy9" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testy" classname="com.QA.BlackJackexp.BlackJackTest" time="0.0">
+      <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+	Syntax error, insert "}" to complete MethodBody
+	b cannot be resolved
+&#13;
+	at com.QA.BlackJackexp.BlackJackTest.&lt;init&gt;(BlackJackTest.java:12)&#13;
+	at sun.reflect.GeneratedConstructorAccessor2.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
